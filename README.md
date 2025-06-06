@@ -21,5 +21,5 @@ cd weather_report
 python -m venv myvenv
 # On Windows: myvenv\Scripts\activate
 
-3. Install Requirements
+3. Install Requirements - pip install django requests
 4.  Run the Server(python manage.py runserver)  Open your browser and go to: http://127.0.0.1:8000/
