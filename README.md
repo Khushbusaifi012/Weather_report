@@ -1,6 +1,6 @@
 "# Weather_report"
 
-🌦️ Weather Report App A Django web application to check the current weather of any city using the OpenWeatherMap API.
+🌦️Weather Report App A Django web application to check the current weather of any city using the OpenWeatherMap API.
 
 🚀Features :-
 1.Get current temperature and weather description of any city.
