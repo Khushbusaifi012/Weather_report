@@ -12,9 +12,9 @@ Tech Stack :-
 2.Frontend: HTML, CSS 
 3.API: OpenWeatherMap API
 
-How to Run Locally :-
-
-Clone the Repository git clone https://github.com/yourusername/weather_report.git cd weather_report
+How to Run Locally :-Clone the Repository
+1.git clone https://github.com/yourusername/weather_report.git
+2.cd weather_report
 
 Create and Activate Virtual Environment:- python -m venv myvenv
 On Windows: myvenv\Scripts\activate
