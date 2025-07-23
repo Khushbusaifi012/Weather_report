@@ -12,7 +12,9 @@ A Django web application to check the current weather of any city using the Open
 
 Tech Stack :-
 1.Backend: Django 
+
 2.Frontend: HTML, CSS 
+
 3.API: OpenWeatherMap API
 
 How to Run Locally :-Clone the Repository
