@@ -4,6 +4,7 @@
 A Django web application to check the current weather of any city using the OpenWeatherMap API.
 
 🚀Features :-
+
 1.Get current temperature and weather description of any city.
 
 2.Displays weather Information dynamically. 
@@ -11,6 +12,7 @@ A Django web application to check the current weather of any city using the Open
 3.Clean and responsive UI.
 
 Tech Stack :-
+
 1.Backend: Django 
 
 2.Frontend: HTML, CSS 
