@@ -1,0 +1,120 @@
+body {
+            font-family: 'Segoe UI', sans-serif;
+            background: url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden; 
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(33, 147, 176, 0.9);
+            color: black;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+
+        .navbar h2 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Heading */
+        h1 {
+            color: black;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px #00000066;
+        }
+
+        /* Form */
+        form {
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 250px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 8px;
+            background-color: #0057e7;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #003fbb;
+        }
+
+        /* Weather Card */
+        .weather-box {
+            background-color: #364F6B;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 320px;
+            margin-top: 20px;
+        }
+
+        .weather-box img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .city-name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .temp {
+            font-size: 40px;
+            font-weight: bold;
+            color: #ff6b6b;
+        }
+
+        .desc {
+            text-transform: capitalize;
+            color: #76ABAE;
+            margin-top: 8px;
+            font-size: 18px;
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }

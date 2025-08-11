@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="{% static 'style.css' %}">
+</head>
+<body>
+
+    <div class="navbar">
+        <h2>☁️ Weather App</h2>
+        <div class="nav-links">
+          
+        </div>
+    </div>
+
+    <h1>🌦️ Live Weather Report</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.city }}
+        <button type="submit">Get Weather</button>
+    </form>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    {% if weather.city %}
+        <div class="weather-box">
+            
+            <div class="city-name">{{ weather.city }}</div>
+            <div class="temp">{{ weather.temperature }}°C</div>
+            <div class="desc">{{ weather.description }}</div>
+        </div>
+    {% endif %}
+
+</body>
+</html>
